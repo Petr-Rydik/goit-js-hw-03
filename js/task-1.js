@@ -1,10 +1,8 @@
 // function slugify(title) {
-//     // const arraySlugify = slugify.split(' ');
-//     const slug = slugify[slugify.length - 1].toLowerCase().join('-');
-//     return slug;
-
+//     const toLowerTitle = title.toLowerCase();
+//     const slugSplitTitle = toLowerTitle.split(" ");
+//     return slugSplitTitle.join("-");
 // }
-
 
 // console.log(slugify("Arrays for begginers")); // "arrays-for-begginers"
 // console.log(slugify("English for developer")); // "english-for-developer"
